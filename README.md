@@ -27,14 +27,22 @@ The notebooks include comprehensive analysis:
 - Timing benchmarks across grid sizes (50x50 to 500x500)
 - Error comparison against Black-Scholes analytical formula
 - Scalability analysis for production considerations
+
+  As examples of the plots included in the notebooks:
 <table>
   <tr>
-    <td><img src="results/plots/secant_convergence.png" width="400"></td>
-    <td><img src="results/plots/sqrtx_integration.png" width="400"></td>
+    <td align="center">
+      <img src="results/plots/secant_convergence.png" width="400"><br>
+      <em>Secant Method Convergence</em>
+    </td>
+    <td align="center">
+      <img src="results/plots/sqrtx_integration.png" width="400"><br>
+      <em>Error vs Function Evaluations — √x Integration</em>
+    </td>
   </tr>
 </table>
 
-
+Note that much more can be found inside these notebooks, mainly tables benchmarking the functions against one another.
 
 ## Relevance to Quantitative Finance
 
