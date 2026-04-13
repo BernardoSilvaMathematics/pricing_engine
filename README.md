@@ -30,7 +30,10 @@ This project demonstrates the numerical foundations behind most models used in p
 
 ## How to Run
 
-Install dependencies:
+Open any notebook in `notebooks/` to explore the numerical methods, convergence results and error comparisons.
+
+
+To run the example script:
 
 ```bash
-pip install -r requirements.txt
+python example/run_pricing_demo.py
