@@ -12,6 +12,3 @@ print("MC:", mc, "±", 1.96 * se)
 print("Delta:", engine.bs_delta())
 
 
-
-
-
