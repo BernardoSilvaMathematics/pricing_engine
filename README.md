@@ -58,4 +58,8 @@ Open any notebook in `notebooks/` to explore the numerical methods, convergence 
 To run the example script:
 
 ```bash
-python example/run_pricing_demo.py
+git clone https://github.com/BernardoSilvaMathematics/pricing_engine.git
+cd pricing_engine
+pip install -e .
+```
+This makes the pricing_engine package available for import in notebooks and script
